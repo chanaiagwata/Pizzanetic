@@ -65,7 +65,7 @@
                               You're in Good Hands with Pizza moto endless menu options. The Pizza moto originals combine your favorite ingredients to create recipes that are truly unforgettable. Every Signature and Max Pizza starts with a generous portion of fresh Mozzarella cheese. Come over here or order online and enjoy a bite. Pure, unadulterated, the kind that makes you feel...free. So prepare your taste buds and let's go.
                             </br>
                            </br>
-                            <span class="order"><a href="#">order now</a></span></p>                        
+                            <span class="order"><a href="#placeOrder">order now</a></span></p>                        
                         </div>
                       </div>
                 </div>
@@ -117,6 +117,66 @@
   <img src="images/spicepizza1.png" alt="spices" height="270px" width="270px">
 </div>
 <!-- Place Order -->
+<form>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="card" style="background: #0B0A0B;">
+          <div class="card-body">
+            <h5 class="card-title text-center" id="placeOrder" style="color:orange;">Place Your Order</h5>
+            <label for="floatingInput" style="color:#f1f1f1;">Select Size</label>
+            <select class="form-select mb-3" aria-label="Default select example">
+              <option disabled selected value="0">--Select Pizza Size--</option>
+              <option value="1500">Large</option>
+              <option value="900">Medium</option>
+              <option value="450">Regular</option>
+            </select>
+            <label for="floatingInput" style="color:#f1f1f1;">Pick Flavors</label>
+            <select class="form-select mb-3" aria-label="Default select example">
+              <option disabled selected value="0">--Flavors--</option>
+              <option value="Pepperoni">Pepperoni</option>
+              <option value="Green Olives">Green Olives</option>
+              <option value="Black Olives">Black Olives</option>
+              <option value="Jalapeño Peppers">Jalapeño Peppers</option>
+              <option value="Cheddar Cheese">Cheddar Cheese</option>
+              <option value="Anchovies">Anchovies</option>
+            </select>
+            <label for="floatingInput" style="color:#f1f1f1;">Pick Your Crust of Choice </label>
+            <select class="form-select mb-3" aria-label="Default select example">
+              <option disabled selected value="0">--Select Crust--</option>
+              <option value="50">Flatbread-@ksh50</option>
+              <option value="100">Neapolitan pizza-@ksh100</option>
+              <option value="150">Stuffed crust-@ksh150</option>
+              <option value="200">Gluten-free-@ksh200</option>
+              <option value="250">Sicilian-@ksh250</option>
+              <option value="300">Deep-dish-@ksh300</option>
+            </select>
+            <h5 style="color:#f1f1f1;">Add Your Favorite Toppings @Ksh50 each</h5>
+            <div class="toppings" style="color:#f1f1f1">
+              <input type="checkbox" name="toping1" value="50">
+              <label for="vehicle1"> Chicken Fajita</label><br>
+              <input type="checkbox" name="topping2" value="50">
+              <label for="vehicle2"> Buffalo Chicken</label><br>
+              <input type="checkbox" name="topping3" value="50" checked>
+              <label for="vehicle3">Bacon Cheeseburger</label><br><br>
+            </div>
+            <button id="btn" class="button1">CHECKOUT</button>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card" style="background: #0B0A0B;">
+          <div class="card-body">
+
+          </div>
+        </div>  
+      </div>
+      
+    </div>
+  </div>
+</form>
+
 
 </body>
 
