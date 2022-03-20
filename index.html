@@ -129,24 +129,24 @@
       <img src="images/spicepizza1.png" alt="spices" height="270px" width="270px">
     </div>
     <!-- Place Order -->
-    <form>
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <div class="card" style="background: #0B0A0B;">
-              <div class="card-body">
-                <h5 class="card-title text-center" id="placeOrder"
-                  style="text-align:center; color: orange;font-family: 'Gloria Hallelujah', cursive;">Place Your Order
-                </h5>
-                <label for="floatingInput" style="color:#f1f1f1;">Select Size</label>
-                <select class="form-select mb-3" aria-label="Default select example">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="card" style="background:  #D2CDAF;">
+            <div class="card-body">
+              <h5 class="card-title text-center" id="placeOrder"
+                style="text-align:center; color: black;font-family: 'Gloria Hallelujah', cursive;">Place Your Order
+              </h5>
+              <form id="customerOrder">
+                <label for="floatingInput" style="color:black;">Select Size</label>
+                <select id="sizeInput" class="form-select mb-3" aria-label="Default select example">
                   <option disabled selected value="0">--Select Pizza Size--</option>
                   <option value="1500">Large</option>
                   <option value="900">Medium</option>
                   <option value="450">Regular</option>
                 </select>
-                <label for="floatingInput" style="color:#f1f1f1;">Pick Flavors</label>
-                <select class="form-select mb-3" aria-label="Default select example">
+                <label for="floatingInput" style="color:black;">Pick Flavors</label>
+                <select id="flavorInput" class="form-select mb-3" aria-label="Default select example">
                   <option disabled selected value="0">--Flavors--</option>
                   <option value="Pepperoni">Pepperoni</option>
                   <option value="Green Olives">Green Olives</option>
@@ -155,8 +155,8 @@
                   <option value="Cheddar Cheese">Cheddar Cheese</option>
                   <option value="Anchovies">Anchovies</option>
                 </select>
-                <label for="floatingInput" style="color:#f1f1f1;">Pick Your Crust of Choice </label>
-                <select class="form-select mb-3" aria-label="Default select example">
+                <label for="floatingInput" style="color:black;">Pick Your Crust of Choice </label>
+                <select id="crustInput" class="form-select mb-3" aria-label="Default select example">
                   <option disabled selected value="0">--Select Crust--</option>
                   <option value="50">Flatbread-@ksh50</option>
                   <option value="100">Neapolitan pizza-@ksh100</option>
@@ -165,62 +165,66 @@
                   <option value="250">Sicilian-@ksh250</option>
                   <option value="300">Deep-dish-@ksh300</option>
                 </select>
-                <h5 style="color:#f1f1f1;">Add Your Favorite Toppings @Ksh50 each</h5>
-                <div class="toppings" style="color:#f1f1f1">
-                  <input type="checkbox" name="toping1" value="50">
-                  <label for="vehicle1"> Chicken Fajita</label><br>
-                  <input type="checkbox" name="topping2" value="50">
-                  <label for="vehicle2"> Buffalo Chicken</label><br>
-                  <input type="checkbox" name="topping3" value="50" checked>
-                  <label for="vehicle3">Bacon Cheeseburger</label><br><br>
+                <h5 style="color:black;">Add Your Favorite Toppings @Ksh50 each</h5>
+                <div class="toppings" style="color:black">
+                  <input type="checkbox"  id="topping2" name="topping1" value="50">
+                  <label for="Chicken"> Chicken Fajita</label><br>
+                  <input type="checkbox"  id="topping2"  name="topping1" value="50">
+                  <label for="Buffalo"> Buffalo Chicken</label><br>
+                  <input type="checkbox"  id="topping2"  name="topping1" value="50">
+                  <label for="Bacon">Bacon Cheeseburger</label><br><br>
                 </div>
-                <button id="btn" class="button1">CHECKOUT</button>
-
-              </div>
+                <button type="submit" class="button1">CHECKOUT</button>
+              </form>
             </div>
           </div>
-          <div class="col-6">
-            <div class="card" style="background: #0B0A0B;">
+        </div>
+        <div class="col-6">
+            <div class="card" style="background: #D2CDAF;">
               <div class="card-body">
-                <h5 style="text-align:center; color: orange;font-family: 'Gloria Hallelujah', cursive;">ORDER SUMMARY
+                <h5 style="text-align:center; color:black;font-family: 'Gloria Hallelujah', cursive;">ORDER SUMMARY
                 </h5>
                 <div class="output">
-                  <p style="color: #f1f1f1;"> Within one hour of making your order, it will be processed and delivered.
-                    During order delivery, double-check that you have the whole payment for the order.
-                    Please contact us as soon as possible if you have any comments or complaints.
-                    Regards, Management.
-                  </p>
-                </div>
-                <div class="delivery1">
-                  <p class="delivery" style="cursor: pointer;">Make Delivery</p>
-                  <p id="pick" style="cursor: pointer;">PickUp</p>
-                </div>
-                <div class="deliveryDetails">
-                  <h3 class="text-center">Provide location details</h3>
-                  <form>
-                    <div>
-                      <label for="fname">Enter your Name: </label>
-                      <input type="text" id="name">
-                      </br>
-                      </br>
-                      <label for="fnumber">Enter your mobile number:</label>
-                      <input type="text" id="number">
-                      </br>
-                      </br>
-                      <label for="flocation">Enter your location:</label>
-                      <input type="text" id="location">
-                      </br>
-                      </br>
-                      <button class="submit mt-3" style="border-radius:10px; padding:3px;">SEND</button>
-                    </div>
-                  </form>
-                </div>
+                  <ul id="outputValues">
+      
+                  </ul>
+              </div>
+                <p style="color: black;"> Within one hour of making your order, it will be processed and delivered.
+                  During order delivery, double-check that you have the whole payment for the order.
+                  Please contact us as soon as possible if you have any comments or complaints.
+                  Regards, Management.
+                </p>
+              </div>
+              <div class="delivery1">
+                <p class="delivery" style="cursor: pointer;">Make Delivery</p>
+                <p id="pick" style="cursor: pointer;">PickUp</p>
+              </div>
+              <div class="deliveryDetails">
+                <h3 class="text-center">Provide location details</h3>
+                <form>
+                  <div>
+                    <label for="fname">Enter your Name: </label>
+                    <input type="text" id="name">
+                    </br>
+                    </br>
+                    <label for="fnumber">Enter your mobile number:</label>
+                    <input type="text" id="number">
+                    </br>
+                    </br>
+                    <label for="flocation">Enter your location:</label>
+                    <input type="text" id="location">
+                    </br>
+                    </br>
+                  </div>
+                  <button class="btn mt-3"
+                    style=" color:black; background: yellow; border-radius:10px; padding:3px;">SEND</button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </form>
+    </div>
   </main>
   <footer>
     <div class="container mt-5">
