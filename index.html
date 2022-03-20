@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Shade&family=Gloria+Hallelujah&family=Lobster&family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Shade&family=Gloria+Hallelujah&family=Lobster&family=Poppins:wght@200&display=swap"
+    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
@@ -47,143 +49,185 @@
           <img src="images/tomatopizza.png" alt="tomato">
           <img class="lettuce" src="images/chilli.png" alt="lettuce">
         </div>
-        
+
       </div>
-      
-        <div class="container-fluid">
-          <div class="headerContainer">
-              <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="card">
-                    </div>
-                      <div class="text-center" id="header">
-                          <h1 class="lead" style="color: yellow; font-weight: 500;font-size: 35px; line-height: 60px;font-family: 'Gloria Hallelujah', cursive;">WELCOME
-                              TO PizzaMOTO
-                          </h1>
-                          <div class="lead2">
-                              <img src="images/share.jpg" alt="Pizza">
-                              <p class="lead" style="color: #f1f1f1; font-size: 18px;font-weight: 400 width=200px; text-align: left;margin-left: 20px;">
-                                You're in Good Hands with Pizza moto endless menu options. The Pizza moto originals combine your favorite ingredients to create recipes that are truly unforgettable. Every Signature and Max Pizza starts with a generous portion of fresh Mozzarella cheese. Come over here or order online and enjoy a bite. Pure, unadulterated, the kind that makes you feel...free. So prepare your taste buds and let's go.
-                              </br>
-                             </br>
-                              <span class="order"><a href="#placeOrder">order now</a></span></p>                        
-                          </div>
-                        </div>
-                  </div>
-           </div>
-          </div>
-      </div>
-  </header>
-  <div class="title2"><h2>Our<span class="title3">Menu</span></h2></div> 
-  <!-- Menu Section -->
-  <div class="cards">
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="images/large.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">large.
-              </br>Ksh 1500
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="images/medium.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Medium.
-                <br>
-                Ksh 900
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="images/regular.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Regular.
-              </br>
-              Ksh 450
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="spice">
-    <img src="images/spicepizza1.png" alt="spices" height="270px" width="270px">
-  </div>
-  <!-- Place Order -->
-  <form>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div class="card" style="background: #0B0A0B;">
-            <div class="card-body">
-              <h5 class="card-title text-center" id="placeOrder" style="text-align:center; color: orange;font-family: 'Gloria Hallelujah', cursive;">Place Your Order</h5>
-              <label for="floatingInput" style="color:#f1f1f1;">Select Size</label>
-              <select class="form-select mb-3" aria-label="Default select example">
-                <option disabled selected value="0">--Select Pizza Size--</option>
-                <option value="1500">Large</option>
-                <option value="900">Medium</option>
-                <option value="450">Regular</option>
-              </select>
-              <label for="floatingInput" style="color:#f1f1f1;">Pick Flavors</label>
-              <select class="form-select mb-3" aria-label="Default select example">
-                <option disabled selected value="0">--Flavors--</option>
-                <option value="Pepperoni">Pepperoni</option>
-                <option value="Green Olives">Green Olives</option>
-                <option value="Black Olives">Black Olives</option>
-                <option value="Jalapeño Peppers">Jalapeño Peppers</option>
-                <option value="Cheddar Cheese">Cheddar Cheese</option>
-                <option value="Anchovies">Anchovies</option>
-              </select>
-              <label for="floatingInput" style="color:#f1f1f1;">Pick Your Crust of Choice </label>
-              <select class="form-select mb-3" aria-label="Default select example">
-                <option disabled selected value="0">--Select Crust--</option>
-                <option value="50">Flatbread-@ksh50</option>
-                <option value="100">Neapolitan pizza-@ksh100</option>
-                <option value="150">Stuffed crust-@ksh150</option>
-                <option value="200">Gluten-free-@ksh200</option>
-                <option value="250">Sicilian-@ksh250</option>
-                <option value="300">Deep-dish-@ksh300</option>
-              </select>
-              <h5 style="color:#f1f1f1;">Add Your Favorite Toppings @Ksh50 each</h5>
-              <div class="toppings" style="color:#f1f1f1">
-                <input type="checkbox" name="toping1" value="50">
-                <label for="vehicle1"> Chicken Fajita</label><br>
-                <input type="checkbox" name="topping2" value="50">
-                <label for="vehicle2"> Buffalo Chicken</label><br>
-                <input type="checkbox" name="topping3" value="50" checked>
-                <label for="vehicle3">Bacon Cheeseburger</label><br><br>
+
+      <div class="container-fluid">
+        <div class="headerContainer">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card">
               </div>
-              <button id="btn" class="button1">CHECKOUT</button>
-            
+              <div class="text-center" id="header">
+                <h1 class="lead"
+                  style="color: yellow; font-weight: 500;font-size: 35px; line-height: 60px;font-family: 'Gloria Hallelujah', cursive;">
+                  WELCOME
+                  TO PizzaMOTO
+                </h1>
+                <div class="lead2">
+                  <img src="images/share.jpg" alt="Pizza">
+                  <p class="lead"
+                    style="color: #f1f1f1; font-size: 18px;font-weight: 400 width=200px; text-align: left;margin-left: 20px;">
+                    You're in Good Hands with Pizza moto endless menu options. The Pizza moto originals combine your
+                    favorite ingredients to create recipes that are truly unforgettable. Every Signature and Max Pizza
+                    starts with a generous portion of fresh Mozzarella cheese. Come over here or order online and enjoy
+                    a bite. Pure, unadulterated, the kind that makes you feel...free. So prepare your taste buds and
+                    let's go.
+                    </br>
+                    </br>
+                    <span class="order"><a href="#placeOrder">order now</a></span></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="card" style="background: #0B0A0B;">
-            <div class="card-body">
-              <h4 style="text-align:center; color: orange;font-family: 'Gloria Hallelujah', cursive;">ORDER SUMMARY</h4>
-              <p style="color: #f1f1f1;">
-                Within one hour of making your order, it will be processed and delivered. During order delivery, double-check that you have the whole payment for the order.
-  Please contact us as soon as possible if you have any comments or complaints.
-  Regards, Management.
-              </p>
-  
+      </div>
+    </header>
+    <div class="title2">
+      <h2>Our<span class="title3">Menu</span></h2>
+    </div>
+    <!-- Menu Section -->
+    <div class="cards">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/large.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">large.
+                  </br>Ksh 1500
+                </p>
+              </div>
             </div>
-          </div>  
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/medium.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Medium.
+                  <br>
+                  Ksh 900
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/regular.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Regular.
+                  </br>
+                  Ksh 450
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        
       </div>
     </div>
-  </form>
+    <div class="spice">
+      <img src="images/spicepizza1.png" alt="spices" height="270px" width="270px">
+    </div>
+    <!-- Place Order -->
+    <form>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="card" style="background: #0B0A0B;">
+              <div class="card-body">
+                <h5 class="card-title text-center" id="placeOrder"
+                  style="text-align:center; color: orange;font-family: 'Gloria Hallelujah', cursive;">Place Your Order
+                </h5>
+                <label for="floatingInput" style="color:#f1f1f1;">Select Size</label>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option disabled selected value="0">--Select Pizza Size--</option>
+                  <option value="1500">Large</option>
+                  <option value="900">Medium</option>
+                  <option value="450">Regular</option>
+                </select>
+                <label for="floatingInput" style="color:#f1f1f1;">Pick Flavors</label>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option disabled selected value="0">--Flavors--</option>
+                  <option value="Pepperoni">Pepperoni</option>
+                  <option value="Green Olives">Green Olives</option>
+                  <option value="Black Olives">Black Olives</option>
+                  <option value="Jalapeño Peppers">Jalapeño Peppers</option>
+                  <option value="Cheddar Cheese">Cheddar Cheese</option>
+                  <option value="Anchovies">Anchovies</option>
+                </select>
+                <label for="floatingInput" style="color:#f1f1f1;">Pick Your Crust of Choice </label>
+                <select class="form-select mb-3" aria-label="Default select example">
+                  <option disabled selected value="0">--Select Crust--</option>
+                  <option value="50">Flatbread-@ksh50</option>
+                  <option value="100">Neapolitan pizza-@ksh100</option>
+                  <option value="150">Stuffed crust-@ksh150</option>
+                  <option value="200">Gluten-free-@ksh200</option>
+                  <option value="250">Sicilian-@ksh250</option>
+                  <option value="300">Deep-dish-@ksh300</option>
+                </select>
+                <h5 style="color:#f1f1f1;">Add Your Favorite Toppings @Ksh50 each</h5>
+                <div class="toppings" style="color:#f1f1f1">
+                  <input type="checkbox" name="toping1" value="50">
+                  <label for="vehicle1"> Chicken Fajita</label><br>
+                  <input type="checkbox" name="topping2" value="50">
+                  <label for="vehicle2"> Buffalo Chicken</label><br>
+                  <input type="checkbox" name="topping3" value="50" checked>
+                  <label for="vehicle3">Bacon Cheeseburger</label><br><br>
+                </div>
+                <button id="btn" class="button1">CHECKOUT</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card" style="background: #0B0A0B;">
+              <div class="card-body">
+                <h5 style="text-align:center; color: orange;font-family: 'Gloria Hallelujah', cursive;">ORDER SUMMARY
+                </h5>
+                <div class="output">
+                  <p style="color: #f1f1f1;"> Within one hour of making your order, it will be processed and delivered.
+                    During order delivery, double-check that you have the whole payment for the order.
+                    Please contact us as soon as possible if you have any comments or complaints.
+                    Regards, Management.
+                  </p>
+                </div>
+                <div class="delivery1">
+                  <p class="delivery" style="cursor: pointer;">Make Delivery</p>
+                  <p style="cursor: pointer;">PickUp</p>
+                </div>
+                <div class="deliveryDetails">
+                  <h3 class="text-center">Provide location details</h3>
+                  <form>
+                    <div>
+                      <label for="fname">Enter your Name: </label>
+                      <input type="text" id="name">
+                    </br>
+                    </br>
+                      <label for="fnumber">Enter your mobile number:</label>
+                      <input type="text" id="number">
+                    </br>
+                    </br>
+                      <label for="flocation">Enter your location:</label>
+                      <input type="text" id="location">
+                    </br>
+                    </br>
+                      <button class="submit mt-3" style="border-radius:10px; padding:3px;">Deliver</button>
+                    </div>
+                  
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </form>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="scripts/index.js"></script>
 </body>
 
 </html>
