@@ -24,7 +24,7 @@
 * Load the page and read through;
 * Select your order itesm;
 * Click the enter button, and you will be notified that the message has been received succesfully.
-![screenshot](https://raw.githubusdfgghsercontent.com/chanaiagwata/Delani-Studio/main/images/delani.png)
+![screenshot](https://raw.githubusercontent.com/chanaiagwata/Pizzanetic/main/images/pizzanetic.png)
 ### Languages and Frameworks
 * HTML
 * CSS
