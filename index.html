@@ -145,16 +145,6 @@
                   <option value="900">Medium</option>
                   <option value="450">Regular</option>
                 </select>
-                <!-- <label for="floatingInput" style="color:black;">Pick Flavors</label>
-                <select id="flavorInput" class="form-select mb-3" aria-label="Default select example">
-                  <option disabled selected value="0">--Flavors--</option>
-                  <option value="Pepperoni">Pepperoni</option>
-                  <option value="Green Olives">Green Olives</option>
-                  <option value="Black Olives">Black Olives</option>
-                  <option value="Jalapeño Peppers">Jalapeño Peppers</option>
-                  <option value="Cheddar Cheese">Cheddar Cheese</option>
-                  <option value="Anchovies">Anchovies</option>
-                </select> -->
                 <label for="floatingInput" style="color:black;">Pick Your Crust of Choice </label>
                 <select id="crustInput" class="form-select mb-3" aria-label="Default select example">
                   <option disabled selected value="0">--Select Crust--</option>
@@ -167,11 +157,11 @@
                 </select>
                 <h5 style="color:black;">Add Your Favorite Toppings @Ksh30 each</h5>
                 <div class="toppings" style="color:black">
-                  <input type="checkbox"  id="topping2" name="topping1" value="30">
+                  <input type="checkbox" id="topping2" name="topping1" value="30">
                   <label for="Chicken"> Chicken Fajita</label><br>
-                  <input type="checkbox"  id="topping2"  name="topping1" value="30">
+                  <input type="checkbox" id="topping2" name="topping1" value="30">
                   <label for="Buffalo"> Buffalo Chicken</label><br>
-                  <input type="checkbox"  id="topping2"  name="topping1" value="30">
+                  <input type="checkbox" id="topping2" name="topping1" value="30">
                   <label for="Bacon">Bacon Cheeseburger</label><br><br>
                 </div>
                 <button type="submit" id="button1">CHECKOUT</button>
@@ -180,68 +170,68 @@
           </div>
         </div>
         <div class="col-6">
-            <div class="card" style="background: #D2CDAF;">
-              <div class="card-body">
-                <h5 style="text-align:center; color:black;font-family: 'Gloria Hallelujah', cursive;">ORDER SUMMARY
-                </h5>
-                <div class="table1">
-                  <table class="table table-sm">
-                    <thead>
-                      <tr>
-                        <th scope="col">Size</th>
-                        <th scope="col">Crust</th>
-                        <th scope="col">Topping</th>
-                        <th scope="col">Total</th>
-                      </tr>
-                    </thead>
-                    <tbody id="outPutValues">
-                      <tr>
-                        <td id="selectSize"></td>
-                        <td id="selectCrust"></td>
-                        <td id="selectTopping"></td>
-                        <td id="total"></td>
-                      </tr>                  
-                    </tbody>
-                  </table>
-                </div>
-                <p id="sum">
+          <div class="card" style="background: #D2CDAF;">
+            <div class="card-body">
+              <h5 style="text-align:center; color:black;font-family: 'Gloria Hallelujah', cursive;">ORDER SUMMARY
+              </h5>
+              <div class="table1">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      <th scope="col">Size</th>
+                      <th scope="col">Crust</th>
+                      <th scope="col">Topping</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="outPutValues">
+                    <tr>
+                      <td id="selectSize"></td>
+                      <td id="selectCrust"></td>
+                      <td id="selectTopping"></td>
+                      <td id="total"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p id="sum">
 
-                </p>
-                <p style="color: black;"> Within one hour of making your order, it will be processed and delivered.
-                  During order delivery, double-check that you have the whole payment for the order.
-                  Please contact us as soon as possible if you have any comments or complaints.
-                  Regards, Management.
-                </p>
-              </div>
-              <div class="delivery1">
-                <p class="delivery" style="cursor: pointer;">Make Delivery</p>
-                <p id="pick" style="cursor: pointer;">PickUp</p>
-              </div>
-              <div class="deliveryDetails">
-                <h3 class="text-center">Provide location details</h3>
-                <form>
-                  <div>
-                    <label for="fname">Enter your Name: </label>
-                    <input type="text" id="name">
-                    </br>
-                    </br>
-                    <label for="fnumber">Enter your mobile number:</label>
-                    <input type="text" id="number">
-                    </br>
-                    </br>
-                    <label for="flocation">Enter your location:</label>
-                    <input type="text" id="location">
-                    </br>
-                    </br>
-                  </div>
-                  <p class="btn mt-3"
-                    style=" cursor: pointer; color:black; background: yellow; border-radius:10px; padding:3px;">SEND</p>
-                </form>
-              </div>
+              </p>
+              <p style="color: black;"> Within one hour of making your order, it will be processed and delivered.
+                During order delivery, double-check that you have the whole payment for the order.
+                Please contact us as soon as possible if you have any comments or complaints.
+                Regards, Management.
+              </p>
+            </div>
+            <div class="delivery1">
+              <p class="delivery" style="cursor: pointer;">Make Delivery</p>
+              <p id="pick" style="cursor: pointer;">PickUp</p>
+            </div>
+            <div class="deliveryDetails">
+              <h3 class="text-center">Provide location details</h3>
+              <form>
+                <div>
+                  <label for="fname">Enter your Name: </label>
+                  <input type="text" id="name">
+                  </br>
+                  </br>
+                  <label for="fnumber">Enter your mobile number:</label>
+                  <input type="text" id="number">
+                  </br>
+                  </br>
+                  <label for="flocation">Enter your location:</label>
+                  <input type="text" id="location">
+                  </br>
+                  </br>
+                </div>
+                <p class="btn mt-3"
+                  style=" cursor: pointer; color:black; background: yellow; border-radius:10px; padding:3px;">SEND</p>
+              </form>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </main>
   <footer>
