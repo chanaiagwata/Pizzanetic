@@ -35,6 +35,6 @@ $(document).ready(function () {
 
     });
     $(".btn").click(function () {
-        alert("Order placed, Prepare additional ksh 150 delivery fee")
+        alert("your order will be delivered to your location, Prepare additional ksh 150 delivery fee")
     })
 });
