@@ -145,7 +145,7 @@
                   <option value="900">Medium</option>
                   <option value="450">Regular</option>
                 </select>
-                <label for="floatingInput" style="color:black;">Pick Flavors</label>
+                <!-- <label for="floatingInput" style="color:black;">Pick Flavors</label>
                 <select id="flavorInput" class="form-select mb-3" aria-label="Default select example">
                   <option disabled selected value="0">--Flavors--</option>
                   <option value="Pepperoni">Pepperoni</option>
@@ -154,7 +154,7 @@
                   <option value="Jalapeño Peppers">Jalapeño Peppers</option>
                   <option value="Cheddar Cheese">Cheddar Cheese</option>
                   <option value="Anchovies">Anchovies</option>
-                </select>
+                </select> -->
                 <label for="floatingInput" style="color:black;">Pick Your Crust of Choice </label>
                 <select id="crustInput" class="form-select mb-3" aria-label="Default select example">
                   <option disabled selected value="0">--Select Crust--</option>
@@ -184,14 +184,29 @@
               <div class="card-body">
                 <h5 style="text-align:center; color:black;font-family: 'Gloria Hallelujah', cursive;">ORDER SUMMARY
                 </h5>
-                <div class="output">
-                  <ul id="outputValues">
-      
-                  </ul>
+                <div class="table1">
+                  <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">Size</th>
+                        <th scope="col">Crust</th>
+                        <th scope="col">Topping</th>
+                        <th scope="col">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody id="outPutValues">
+                      <tr>
+                        <td id="selectSize"></td>
+                        <td id="selectCrust"></td>
+                        <td id="selectTopping"></td>
+                        <td id="total"></td>
+                      </tr>                  
+                    </tbody>
+                  </table>
                 </div>
-                <div id="sum">
+                <p id="sum">
 
-                </div>
+                </p>
                 <p style="color: black;"> Within one hour of making your order, it will be processed and delivered.
                   During order delivery, double-check that you have the whole payment for the order.
                   Please contact us as soon as possible if you have any comments or complaints.
