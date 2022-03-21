@@ -2,13 +2,13 @@
 ## By Chanai Agwata
 ### (MS School Project)
 
-* [Overall Description](https://github.com/chanaiagwata/Delani-Studio#overall-project-description)
+* [Overall Description](https://github.com/chanaiagwata/Pizzanetic#overall-project-description)
 
-* [Setup Instructions](https://github.com/chanaiagwata/Delani-Studio#setup-instructions)
+* [Setup Instructions](https://github.com/chanaiagwata/Pizzanetic#setup-instructions)
 
-* [License](https://github.com/chanaiagwata/Delani-Studio#license)
+* [License](https://github.com/chanaiagwata/Pizzanetic#license)
 
-* [Author's Info](https://github.com/chanaiagwata/Delani-Studio#authors-info)
+* [Author's Info](https://github.com/chanaiagwata/Pizzanetic#authors-info)
 
 ## Overall Project Description
 <p>This is a landing page for a pizza restaurant that allows the user to place an order by selecting the size of pizza, crust type, and topping.</p>
